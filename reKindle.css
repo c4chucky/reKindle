@@ -1,0 +1,70 @@
+body {
+	background-color: #6B18C4;
+	margin-top: 10px;
+
+}
+
+.slogan {
+	color: #FFCB00;
+	font-family: 'Amita', serif;
+}
+
+
+
+#mainBody {
+	color: #FFCB00;
+	border-style: solid;
+	border-color: red;
+	border-width: 2px;
+	margin-bottom: 5px;
+	border-radius: 5px;
+	box-shadow: 5px 5px 5px #660066;
+	
+}
+
+.btn-top {
+	margin: 4px 4px 4px 4pxx;
+	padding: 4px 6px 4px 6px;
+	color: white;
+	background-color: #f2004b;
+	border: none;
+	border-radius: 2px;
+	padding: 5px;
+	transition: all 0.5s;
+	width: 100%;
+	box-shadow: 5px 5px 5px #660066;
+}
+
+.main-logo {
+	text-align: center;
+	color: #FFCB00;
+	
+	font-family: 'Amita', serif;
+    font-size: 48px;
+	text-shadow: 5px 5px 5px #660066;
+	
+}
+
+.QAR-button {
+	color: white;
+	background-color: #f2004b;
+	border: none;
+	border-radius: 2px;
+	padding: 5px;
+	transition: all 0.5s;
+	width: 25%;
+	box-shadow: 5px 5px 5px #660066;
+}
+
+
+
+.QAR-buttonRow {
+	margin-top: 10px;
+	padding-top: 10px;
+	position: relative;
+	
+}
+
+.btn-group {
+	/*width: 100%;*/
+}

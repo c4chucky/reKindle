@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+<html class="fa-events-icons-failed"><head><link href="https://use.fontawesome.com/869a0b403d.css" media="all" rel="stylesheet"></head><body><doctype1 html="">
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="reKindle.css">
+<link rel="stylesheet" type="text/css" href="font-awesome.css">
+<link rel="stylesheet" type="text/css" href="font-awesome.min">
+<script src="https://use.fontawesome.com/869a0b403d.js"></script>
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Amita">
+<script href="reKindle.js"></script>
+</head>
+<body>
+	<div class="container-fluid">
+		<!--Top container for user buttons and main logo-->
+		<div class="row">
+			<!--Left container-->
+			<div class="col-sm-1 col-xs-1">
+			</div>
+			<div class="col-sm-10 col-xs-10">
+				<div class="row">
+					<div class="col-sm-1 col-xs-2"><button class="btn btn-top" onclick="getElementById('activePlayer').innerHTML = '<strong>'+'Player 1:'+'</strong>'"><i class="fa fa-female"></i></button>
+					</div>
+					<div class="col-sm-6 col-xs-8">
+					<h1 class="main-logo center-align">ReKindle</h1>
+					<p class="slogan text-center">Rekindle your Romance</p>
+					</div>
+					<!--<div class="col-sm-4 col-xs-3">
+					<img src="flamecrop.jpg" class="img-responsive">
+					</div>-->
+					<div class="col-sm-1 col-xs-2"><button class="btn btn-top" onclick="getElementById('activePlayer').innerHTML = '<strong>'+'Player 2:'+'</strong>'"><i class="fa fa-male"></i></button>
+					</div>
+				</div>
+				<!--Middle main container with spinning wheel to generate the QAR--->
+				<div class="row">
+					<div class="col-sm-1 col-xs-1">
+					</div>
+					
+					<div class="col-sm-10 col-xs-10" id="mainBody">
+					<div>
+					<h3 id="activePlayer"></h3>
+					</div>
+					<hr>
+					<h4>Select a Question or Action below</h4>
+					<br>
+					<p id="message"></p>
+					<br>
+					</div>
+				
+					<div class="col-sm-1 col-xs-1">
+					</div>
+				</div>
+			</div>
+		
+				<!--bottom container with QAR buttons-->
+				<div class="row" id="QAR-buttonRow">
+					<div class="col-sm-4 col-xs-2">
+					</div>
+					<div class="col-sm-4 col-xs-8 text-center btn-group">
+					<button onclick="getElementById('message').innerHTML = 'Question:'+'<br>'+'<em>'+'Describe your first date'+'</em>'" class="QAR-button" data-toggle="tooltip" title="Question"><i class="fa fa-question-circle"></i></button>
+					<button onclick="getElementById('message').innerHTML = 'Action:'+'<br>'+'<em>'+'Kiss your partner in the neck'+'</em>'" class="QAR-button" data-toggle="tooltip" title="Action"><i class="fa fa-heart"></i></button>
+					<button onclick="getElementById('message').innerHTML = 'Action:'+'<br>'+'<em>'+'Do a strip tease for your partner lasting one minute'+'</em>'" class="QAR-button" data-toggle="tooltip" title="Random"><i class="fa fa-random"></i></button>
+					</div>
+					<div class="col-sm-4 col-xs-2">
+					</div>
+				</div>
+			
+			<!--Right container-->
+			<div class="col-sm-1 col-xs-1">
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>
